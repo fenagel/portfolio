@@ -2,11 +2,8 @@
   text-align: center;
 }
 
-.About p {
-  font-size: 12pt;
-}
-
 .About-Card {
+  font-size: 12pt;
 }
 
 .About-Label {
@@ -26,8 +23,9 @@
   color:#e76f51;
 }
 
-#Who-This {
+.Who-This {
   text-align:left;
+  font-size: 14pt;
 }
 
 .Profile-Pic {
