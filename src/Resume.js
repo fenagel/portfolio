@@ -1,9 +1,10 @@
 import React from "react"
+import './Resume.css';
 
 function Resume(props) {
   return (
-    <div>
-      <h1>Resume</h1>
+    <div className="Resume">
+      <h1 className="Header">RESUME</h1>
     </div>
   )
 }

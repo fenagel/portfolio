@@ -1,15 +1,17 @@
 import React from "react";
 import Thumbnail from './Thumbnail';
+import './Projects.css';
+import wyder from './images/wyder.png';
 
 
 function Projects(props) {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className="Projects">
+      <h1 className="Header">PROJECTS</h1>
       <Thumbnail
-       link="/airbnb"
-       image="http://airbnb-image-url.jpg"
-       title="Airbnb Experiences"
+       link="http://www.wyder.xyz/"
+       image={wyder}
+       title="University Video Platform"
        category="Website"      />
     </div>
   )

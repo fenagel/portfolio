@@ -1,0 +1,36 @@
+.About {
+  text-align: center;
+}
+
+.About p {
+  font-size: 12pt;
+}
+
+.About-Card {
+}
+
+.About-Label {
+  font-size: 18pt;
+  margin-top:15px;
+  margin-bottom: 10px;
+  font-family:"Raleway-bold";
+}
+
+.About i {
+  font-size: 25px;
+  color:#2a9d8f;
+}
+
+.About-Skills {
+  text-align: left;
+  color:#e76f51;
+}
+
+#Who-This {
+  text-align:left;
+}
+
+.Profile-Pic {
+  object-fit: cover;
+  width: 50%;
+}

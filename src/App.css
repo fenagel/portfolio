@@ -1,55 +1,23 @@
 .App {
-  text-align: center;
-  width: 1200px;
-  margin: 30px auto;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12pt;
+  color:#264653;
   font-weight: lighter;
 }
-
-.logo-image {
-  height: 30px;
-  pointer-events: none;
-  padding-bottom: 5px;
+.App-Navbar {
+  background: white;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
-  border-bottom: 1px solid darkgrey;
-  margin:0;
-  padding:0;
-  overflow: hidden;
-  position: sticky;
-  top: 0;
-  width: 100%;
+.Header {
+  color:#e9c46a;
+  font-family:"Raleway-bold";
+  font-size: 30pt;
 }
 
-.navigation-sub {
-  padding-bottom: 5px;
+.App i {
+  color:#2a9d8f;
 }
 
-.item {
-  margin-left: 20px;
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-  padding: 8px 16px;
+.nav-link:hover {
+  color:#264653 !important;
 }
-
-@media (max-width: 575.98px) {
-  .App { width:400px; }
-  .navigation {
-
-  }
-}
-
-@media (min-width: 576px) { .App { width:500px; } }
-
-@media (min-width: 768px) { .App { width:700px; } }
-
-@media (min-width: 992px) { .App { width:900px; } }
-
-@media (min-width: 1200px) { .App { width:1200px; } }
