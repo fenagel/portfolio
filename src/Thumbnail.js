@@ -43,7 +43,7 @@ class Thumbnail extends Component {
               </Col>
             </Row>
           ) : (
-            <div className="Project-Image">
+            <div className="Project-Image mt-3">
               <img src={this.props.image} alt="Project"/>
             </div>
           )}
