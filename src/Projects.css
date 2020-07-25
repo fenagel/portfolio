@@ -35,7 +35,6 @@
 }
 
 .Project {
-  overflow: hidden;
   background: #fff;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius:5px;
@@ -44,64 +43,15 @@
 
 .Project-Image {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-.Project-Hovered {
-  padding-top: 20px;
-  color: #264653;
-  text-decoration: none;
-  font-family: "Raleway-bold";
-  font-size: 18pt;
-  height:100%;
-}
-
-.color {
+.Button-Color {
   color: #2a9d8f !important;
   border-color: #2a9d8f !important;
 }
 
-.color:hover {
+.Button-Color:hover {
   background-color: #2a9d8f !important;
   color: #fff !important;
-}
-
-.Project-btn {
-   background: #E9C46A;
-   background-image: -webkit-linear-gradient(top, #E9C46A, #E76F51);
-   background-image: -moz-linear-gradient(top, #E9C46A, #E76F51);
-   background-image: -ms-linear-gradient(top, #E9C46A, #E76F51);
-   background-image: -o-linear-gradient(top, #E9C46A, #E76F51);
-   background-image: linear-gradient(to bottom, #E9C46A, #E76F51);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
-   font-family: Raleway-bold;
-   font-size: 30px;
-   font-weight: 100;
-   padding: 40px;
-   box-shadow: 1px 1px 20px 0px #264653;
-   -webkit-box-shadow: 1px 1px 20px 0px #264653;
-   -moz-box-shadow: 1px 1px 20px 0px #264653;
-   text-shadow: 1px 1px 20px #264653;
-   border: solid #E76F51 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-}
-
-.Project-btn:hover {
-   border: solid #E76F51 1px;
-   background: #E76F51;
-   background-image: -webkit-linear-gradient(top, #E76F51, #E9C46A);
-   background-image: -moz-linear-gradient(top, #E76F51, #E9C46A);
-   background-image: -ms-linear-gradient(top, #E76F51, #E9C46A);
-   background-image: -o-linear-gradient(top, #E76F51, #E9C46A);
-   background-image: linear-gradient(to bottom, #E76F51, #E9C46A);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
 }
