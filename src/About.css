@@ -23,6 +23,11 @@
   color:#e76f51;
 }
 
+.Skill-Item {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .Who-This {
   text-align:left;
   font-size: 14pt;
