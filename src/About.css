@@ -12,8 +12,6 @@
 
 .About-Card {
   font-size: 12pt;
-  left: -300px;
-  position: absolute;
   -webkit-animation: slideInLeft 0.75s ease both;
   -webkit-animation-delay: 0.75s;
   animation: slideInLeft 0.75s ease both;
