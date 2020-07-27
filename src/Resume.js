@@ -32,7 +32,7 @@ function Resume(props) {
             <p>Check out my LinkedIn, download my CV or visit my GitHub profile to find out more about me.</p>
             <Row className="justify-content-between">
             <a target="blank" href="https://www.linkedin.com/in/fenagel/"><i className="fab fa-linkedin"></i></a>
-            <a target="blank" href="https://drive.google.com/file/d/10m00IihRkA_IRKkx4vsuDrUbtJHA1SHe/view?usp=sharing"><i class="fas fa-download"></i></a>
+            <a target="blank" href="https://drive.google.com/file/d/1RMvbQYZHiathZ8qYXgSiZQ4GzJzhYyvR/view?usp=sharing"><i class="fas fa-download"></i></a>
             <a target="blank" href="https://github.com/fenagel"><i className="fab fa-github-square"></i></a>
             </Row>
           </div>
