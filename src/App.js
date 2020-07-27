@@ -19,17 +19,17 @@ function App() {
               <NavBar.Toggle aria-controls="Navbar Toggle" className="border-0"/>
               <NavBar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto" >
-                  <Link to="/" className="nav-link">Home</Link>
-                  <Link to="/about" className="nav-link">About</Link>
-                  <Link to="/projects" className="nav-link">Projects</Link>
-                  <Link to="/resume" className="nav-link">Resume</Link>
+                  <Link to="/portfolio/" className="nav-link">Home</Link>
+                  <Link to="/portfolio/about" className="nav-link">About</Link>
+                  <Link to="/portfolio/projects" className="nav-link">Projects</Link>
+                  <Link to="/portfolio/resume" className="nav-link">Resume</Link>
                 </Nav>
               </NavBar.Collapse>
             </NavBar>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component= {Projects} />
-          <Route path="/resume" component={Resume} />
+          <Route exact path="/portfolio/" component={Home} />
+          <Route path="/portfolio/about" component={About} />
+          <Route path="/portfolio/projects" component= {Projects} />
+          <Route path="/portfolio/resume" component={Resume} />
       </div>
     </BrowserRouter>
   );
