@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 import NavBar from 'react-bootstrap/NavBar';
 import Nav from 'react-bootstrap/Nav';
@@ -12,13 +12,12 @@ import About from './About';
 
 function App() {
   return (
-    <BrowserRouter>
       <div className="App">
         <NavBar className="border-bottom App-Navbar" expand="lg" sticky="top" >
               <NavBar.Brand><i className="fas fa-terminal"></i></NavBar.Brand>
               <NavBar.Toggle aria-controls="Navbar Toggle" className="border-0"/>
               <NavBar.Collapse id="navbar-toggle">
-                <Nav className="ml-auto" >
+                <Nav className="ml-auto">
                   <Link to="/portfolio/" className="nav-link">Home</Link>
                   <Link to="/portfolio/about" className="nav-link">About</Link>
                   <Link to="/portfolio/projects" className="nav-link">Projects</Link>
@@ -31,7 +30,6 @@ function App() {
           <Route path="/portfolio/projects" component= {Projects} />
           <Route path="/portfolio/resume" component={Resume} />
       </div>
-    </BrowserRouter>
   );
 }
 
