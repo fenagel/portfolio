@@ -14,17 +14,24 @@
   font-size: 12pt;
   position: absolute;
   left: -1200px;
-  -webkit-animation: slide 1s forwards;
-  -webkit-animation-delay: 1.5s;
-  animation: slide 1s forwards;
-  animation-delay: 1.5s;
+  -webkit-animation: slideInLeft 0.75s ease both;
+  -webkit-animation-delay: 0.75s;
+  animation: slideInLeft 0.75s ease both;
+  animation-delay: 0.75s;
 }
 
-@-webkit-keyframes slide {
-    100% { left: 15px; }
+@-webkit-keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-300px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
 }
 
-@keyframes slide {
+@keyframes slideInLeft {
     100% { left: 15px; }
 }
 
