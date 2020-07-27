@@ -2,8 +2,30 @@
   text-align: center;
 }
 
+.Animation {
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  overflow: hidden;
+  width: 100%;
+}
+
 .About-Card {
   font-size: 12pt;
+  position: absolute;
+  left: -1200px;
+  -webkit-animation: slide 1s forwards;
+  -webkit-animation-delay: 1.5s;
+  animation: slide 1s forwards;
+  animation-delay: 1.5s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 15px; }
+}
+
+@keyframes slide {
+    100% { left: 15px; }
 }
 
 .About-Label {
@@ -36,4 +58,26 @@
 .Profile-Pic {
   object-fit: cover;
   width: 50%;
+}
+
+@media (max-width: 767.98px) {
+  .About {
+    text-align: left;
+  }
+
+  .About-Card {
+    font-size: 10pt;
+  }
+
+  .About-Label {
+    font-size: 14pt;
+  }
+
+  .Who-This {
+    font-size: 12pt;
+    text-align: center;
+  }
+  .Skill-Item {
+    font-size: 10pt;
+  }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Thumbnail from './Thumbnail';
@@ -15,7 +16,7 @@ import todo from './images/todo.png';
 function Projects(props) {
   return (
     <div className="Projects">
-      <h1 className="Header">PROJECTS</h1>
+      <h1 className="Header mb-5">PROJECTS</h1>
       <Row>
         <Col xs={12} md={6} xl={4} className="mb-3">
           <Thumbnail

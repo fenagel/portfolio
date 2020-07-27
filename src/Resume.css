@@ -124,6 +124,14 @@
   color:#2a9d8f;
 }
 
-
+@media (max-width: 767.98px) {
+  .Resume {
+    font-size: 10pt;
+    text-align: center;
+  }
+  .Resume h2 {
+    font-size: 12pt;
+  }
+}
 
 

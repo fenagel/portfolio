@@ -2,3 +2,7 @@
   text-align: center;
 }
 
+.Hero-Image {
+  object-fit: cover;
+  width: 100%;
+}

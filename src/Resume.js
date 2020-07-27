@@ -1,9 +1,10 @@
-import React from "react"
+import React from 'react';
+import Container from 'react-bootstrap/Container';
 import './Resume.css';
 
 function Resume(props) {
   return (
-    <div className="Resume">
+    <Container className="Resume mt-5">
       <h1 className="Header pt-2">RESUME</h1>
       <div class="timeline">
         <div class="container-timeline left">
@@ -32,7 +33,7 @@ function Resume(props) {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   )
 }
 

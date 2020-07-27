@@ -2,16 +2,17 @@ import React from "react";
 import './About.css';
 import profile from './images/profile.jpg';
 import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function About(props) {
   return (
-    <div className="About">
+    <Container className="About">
       <h1 className="Header mb-5">ABOUT</h1>
       <p className="Header-p">Recently, I made the transition from a previous life in <strong>online marketing</strong> to becoming a <strong>full-stack web developer</strong>.</p>
       <p className="Header-p">With my background online marketing & ecommerce <strong>I know what todays websites need</strong> to be marketable.</p>
-      <Row className="align-items-start mt-5 mb-5">
+      <Row className="align-items-start mt-5 mb-5 Animation">
         <Col xs={6} md={3} className="About-Card">
           <i className="fas fa-fighter-jet"></i>
           <h4 className="About-Label">Fast</h4>
@@ -69,7 +70,7 @@ function About(props) {
             <i className="fas fa-ad"></i>
           </Row>
           <Row className="Skill-Item justify-content-between">
-            <p>SQL, PostgreSQL, SQLite, ActiveRecord</p>
+            <p>SQL, PostgreSQL, ActiveRecord</p>
             <i className="fas fa-database"></i>
           </Row>
           <Row className="Skill-Item justify-content-between">
@@ -79,7 +80,7 @@ function About(props) {
 
         </Col>
       </Row>
-    </div>
+    </Container>
 
   )
 }
