@@ -11,7 +11,7 @@ function About(props) {
     <Container className="About">
       <h1 className="Header mb-5">ABOUT</h1>
       <p className="Header-p">Recently, I made the transition from a previous life in <strong>online marketing</strong> to becoming a <strong>full-stack web developer</strong>.</p>
-      <p className="Header-p">With my background online marketing & ecommerce <strong>I know what todays websites need</strong> to be marketable.</p>
+      <p className="Header-p">With my background online marketing & ecommerce <strong>I know what today's websites need</strong> to be marketable.</p>
       <Row className="align-items-start mt-5 mb-5 Animation">
         <Col xs={6} md={3} className="About-Card">
           <i className="fas fa-fighter-jet"></i>
