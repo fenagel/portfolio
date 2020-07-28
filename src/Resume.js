@@ -11,7 +11,7 @@ function Resume(props) {
         <div class="container-timeline left">
           <div class="content">
             <h2>2020</h2>
-            <p><strong>Le Wagon</strong> - 9 week web development course. Now working as a <strong>Teaching Assistent</strong> for the next batch at Le Wagon.</p>
+            <p><strong>Le Wagon</strong> - 9 week web development course. Now working as a <strong>Teaching Assistant</strong> for the next batch at Le Wagon.</p>
           </div>
         </div>
         <div class="container-timeline right">
