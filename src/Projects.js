@@ -6,7 +6,7 @@ import './Projects.css';
 
 import wyder from './images/wyder.png';
 import cocktail from './images/cocktail.png';
-import chat from './images/chat.png';
+import yahtzee from './images/yahtzee.png';
 import gif from './images/gif.png';
 import lights from './images/lights.png';
 import todo from './images/todo.png';
@@ -35,11 +35,11 @@ function Projects(props) {
         </Col>
         <Col xs={12} md={6} xl={4} className="mb-3">
            <Thumbnail
-           link="https://fenagel.github.io/chat-redux/"
-           image={chat}
-           title="React Chat"
-           category="Chat Implementation"
-           language="React, Redux"      />
+           link="https://fenagel.github.io/yahtzee/"
+           image={yahtzee}
+           title="React Yahtzee Game"
+           category="React Game App"
+           language="React"      />
         </Col>
         <Col xs={12} md={6} xl={4} className="mb-3">
            <Thumbnail
