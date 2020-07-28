@@ -35,7 +35,7 @@ function Projects(props) {
         </Col>
         <Col xs={12} md={6} xl={4} className="mb-3">
            <Thumbnail
-           link="https://fenagel.github.io/yahtzee/"
+           link="https://fenagel.github.io/yahztee/"
            image={yahtzee}
            title="React Yahtzee Game"
            category="React Game App"
