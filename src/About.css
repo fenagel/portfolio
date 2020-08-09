@@ -19,31 +19,31 @@
 }
 
 @-webkit-keyframes slideInLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-700px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-700px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .About-Label {
   font-size: 18pt;
-  margin-top:15px;
+  margin-top: 15px;
   margin-bottom: 10px;
-  font-family:"Raleway-bold";
+  font-family: "Raleway-bold";
 }
 
 .About i {
   font-size: 25px;
-  color:#2a9d8f;
+  color: #2a9d8f;
 }
 
 .About-Skills {
   text-align: left;
-  color:#e76f51;
+  color: #e76f51;
 }
 
 .Skill-Item {
@@ -52,7 +52,7 @@
 }
 
 .Who-This {
-  text-align:left;
+  text-align: left;
   font-size: 14pt;
 }
 
@@ -76,7 +76,6 @@
 
   .Who-This {
     font-size: 12pt;
-    text-align: center;
   }
   .Skill-Item {
     font-size: 10pt;
