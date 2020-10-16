@@ -1,6 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Raleway",
+    "Raleway-bold" sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .App {
-  font-family: "Raleway", sans-serif;
-  font-size: 12pt;
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
   color: #264653;
   font-weight: lighter;
 }
@@ -10,13 +33,14 @@
 
 .Header {
   color: #2a9d8f;
-  font-family: "Raleway-bold";
-  font-size: 30pt;
-  padding-top: 40px;
+  font-family: "Raleway-bold", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  margin-top: 6rem;
 }
 
 .Header-p {
-  font-size: 14pt;
+  font-size: 1.4rem;
 }
 
 .App i {

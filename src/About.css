@@ -3,19 +3,21 @@
 }
 
 .Animation {
-  animation-duration: 4s;
-  animation-name: slidein;
+  animation-duration: 2s;
+  animation-name: slideInLeft;
   animation-iteration-count: 1;
   overflow: hidden;
   width: 100%;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .About-Card {
-  font-size: 12pt;
-  -webkit-animation: slideInLeft 0.75s ease both;
-  -webkit-animation-delay: 0.75s;
-  animation: slideInLeft 0.75s ease both;
-  animation-delay: 0.75s;
+  font-size: 1.2rem;
+  -webkit-animation: slideInLeft 1s ease both;
+  -webkit-animation-delay: 1s;
+  animation: slideInLeft 1s ease both;
+  animation-delay: 1s;
 }
 
 @-webkit-keyframes slideInLeft {
@@ -29,15 +31,26 @@
   }
 }
 
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-700px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .About-Label {
-  font-size: 18pt;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
   font-family: "Raleway-bold";
 }
 
 .About i {
-  font-size: 25px;
+  font-size: 2rem;
   color: #2a9d8f;
 }
 
@@ -53,7 +66,7 @@
 
 .Who-This {
   text-align: left;
-  font-size: 14pt;
+  font-size: 1.2rem;
 }
 
 .Profile-Pic {
@@ -63,21 +76,27 @@
 
 @media (max-width: 767.98px) {
   .About {
-    text-align: left;
+    text-align: center;
   }
 
   .About-Card {
-    font-size: 10pt;
+    font-size: 1rem;
+  }
+
+  .Animation {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 
   .About-Label {
-    font-size: 14pt;
+    font-size: 1.4rem;
   }
 
   .Who-This {
-    font-size: 12pt;
+    text-align: center;
+    font-size: 1.2rem;
   }
   .Skill-Item {
-    font-size: 10pt;
+    font-size: 1rem;
   }
 }

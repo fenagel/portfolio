@@ -6,7 +6,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import './Home.css';
 
-import hero from './images/hero.png';
+import hero from './images/hero.jpg';
 
 function Home(props) {
 
@@ -16,7 +16,20 @@ useEffect(() => {
 
   return (
     <div className="Home">
-      <Image src={hero} href="" id="home-anchor" lt="hero image" className="Hero-Image" />
+      {/* <Image src={hero} href="" id="home-anchor" lt="hero image" className="Hero-Image" /> */}
+      <header className="Hero-Header">
+      <div className="Hero-H1">
+        <h1>HELLO! I'M FELIX</h1>
+      </div>
+      <div className="Hero-P">
+        <p>I'm a web developer & performance marketer</p>
+      </div>
+      <div class="Hero-Scroll">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </header>
       <Container fixed="top" fluid={false} >
       <About />
       <Projects />

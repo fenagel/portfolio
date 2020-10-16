@@ -5,7 +5,7 @@ import "./Resume.css";
 
 function Resume(props) {
   return (
-    <Container className="Resume mt-5">
+    <Container className="Resume">
       <h1 className="Header pt-2" id="Resume-Header">
         RESUME
       </h1>
@@ -44,10 +44,9 @@ function Resume(props) {
         </div>
         <div className="container-timeline right">
           <div className="content">
-            <h2>Additional Details</h2>
+            <h2>Contact Me</h2>
             <p>
-              Check out my LinkedIn, download my CV or visit my GitHub profile
-              to find out more about me.
+              Find me on LinkedIn, download my CV or visit my GitHub profile.
             </p>
             <Row className="justify-content-center">
               <a target="blank" href="https://www.linkedin.com/in/fenagel/">

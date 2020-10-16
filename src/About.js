@@ -10,9 +10,9 @@ function About(props) {
   return (
     <Container className="About">
       <h1 className="Header mb-5">ABOUT</h1>
-      <p className="Header-p">Recently, I made the transition from a previous life in <strong>online marketing</strong> to becoming a <strong>full-stack web developer</strong>.</p>
+      <p className="Header-p mb-5">Recently, I made the transition from a previous life in <strong>online marketing</strong> to becoming a <strong>full-stack web developer</strong>.</p>
       <p className="Header-p">With my background online marketing & ecommerce <strong>I know what today's websites need</strong> to be marketable.</p>
-      <Row className="align-items-start mt-5 mb-5 Animation">
+      <Row className="align-items-start Animation">
         <Col xs={6} md={3} className="About-Card">
           <i className="fas fa-fighter-jet"></i>
           <h4 className="About-Label">Fast</h4>
@@ -35,12 +35,12 @@ function About(props) {
         </Col>
       </Row>
       <Row className="About-Skills-Wrapper">
-        <Col xs={12} md={6} className="Who-This">
-          <Image src={profile} href="" lt="Profile" rounded className="mb-2 Profile-Pic" />
-          <h4>Who's this guy?</h4>
-          <p>I'm a newly bread web developer living in Berlin. I have a serious passion for thaiboxing and other martial arts. Augmented Reality is another topic I love to talk about!</p>
+        <Col xs={12} md={7} className="Who-This">
+          <Image src={profile} href="" lt="Profile" rounded className="mb-5 Profile-Pic" />
+          <h4 className="mb-3">Who's this guy?</h4>
+          <p>After graduating from the coding bootcamp of Le Wagon I'm now teaching current students as a Teaching Assistant. <br></br> <br></br>I have a serious passion for thaiboxing, other martial arts and Augmented Reality!</p>
         </Col>
-        <Col xs={12} md={6} className="About-Skills">
+        <Col xs={12} md={5} className="About-Skills">
           <Row className="Skill-Item justify-content-between">
             <p>CSS</p>
             <i className="fab fa-css3"></i>
@@ -66,15 +66,15 @@ function About(props) {
             <i className="fab fa-figma"></i>
           </Row>
           <Row className="Skill-Item justify-content-between">
-            <p>Google Ads / Google Analytics</p>
+            <p>Google Ads / Analytics</p>
             <i className="fas fa-ad"></i>
           </Row>
           <Row className="Skill-Item justify-content-between">
-            <p>SQL, PostgreSQL, ActiveRecord</p>
+            <p>SQL, PostgreSQL</p>
             <i className="fas fa-database"></i>
           </Row>
           <Row className="Skill-Item justify-content-between">
-            <p>Deployment (i.e. Heroku)</p>
+            <p>Deployment (Heroku)</p>
             <i className="fas fa-server"></i>
           </Row>
 

@@ -4,41 +4,41 @@
 }
 
 .Dot-Wrapper {
-  border-radius:5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
   border-bottom: 1px solid #c1c1c1;
   justify-content: start;
   align-items: center;
   background-color: #eaeaea;
 }
 
-#Dot-1{
-  background-color:  #e76f51;
+#Dot-1 {
+  background-color: #e76f51;
 }
 
-#Dot-2{
-  background-color:  #e9c46a;
+#Dot-2 {
+  background-color: #e9c46a;
 }
 
-#Dot-3{
-  background-color:  #2a9d8f;
+#Dot-3 {
+  background-color: #2a9d8f;
 }
 
-.Browser-Dot{
+.Browser-Dot {
   background-color: #264653;
-  height: 15px;
-  width: 15px;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 50%;
   margin: 5px;
 
-  -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-  box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
 
 .Project {
   background: #fff;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-radius:5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
   height: 285px;
   width: 330px !important;
   margin: 0 auto;
@@ -47,6 +47,10 @@
 .Project-Image {
   width: 100%;
   object-fit: cover;
+}
+
+.Project-Image img {
+  border-radius: 5px;
 }
 
 .Button-Color {
@@ -58,4 +62,3 @@
   background-color: #2a9d8f !important;
   color: #fff !important;
 }
-

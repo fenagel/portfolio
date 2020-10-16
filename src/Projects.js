@@ -7,7 +7,7 @@ import './Projects.css';
 import wyder from './images/wyder.png';
 import cocktail from './images/cocktail.png';
 import yahtzee from './images/yahtzee.png';
-import gif from './images/gif.png';
+import nature from './images/nature.png';
 import lights from './images/lights.png';
 import todo from './images/todo.png';
 
@@ -15,9 +15,9 @@ import todo from './images/todo.png';
 function Projects(props) {
   return (
     <div className="Projects">
-      <h1 className="Header mb-5">PROJECTS</h1>
+      <h1 className="Header">PROJECTS</h1>
       <Row>
-        <Col xs={12} md={6} xl={4} className="mb-3">
+        <Col xs={12} md={6} xl={4} className="mb-5">
           <Thumbnail
            link="http://www.wyder.xyz/"
            image={wyder}
@@ -25,7 +25,7 @@ function Projects(props) {
            category="Website"
            language="Ruby on Rails"      />
         </Col>
-        <Col xs={12} md={6} xl={4} className="mb-3">
+        <Col xs={12} md={6} xl={4} className="mb-5">
            <Thumbnail
            link="https://damp-refuge-59220.herokuapp.com/"
            image={cocktail}
@@ -33,7 +33,7 @@ function Projects(props) {
            category="Website"
            language="Ruby on Rails"      />
         </Col>
-        <Col xs={12} md={6} xl={4} className="mb-3">
+        <Col xs={12} md={6} xl={4} className="mb-5">
            <Thumbnail
            link="https://fenagel.github.io/yahztee/"
            image={yahtzee}
@@ -41,15 +41,15 @@ function Projects(props) {
            category="React Game App"
            language="React"      />
         </Col>
-        <Col xs={12} md={6} xl={4} className="mb-3">
+        <Col xs={12} md={6} xl={4} className="mb-5">
            <Thumbnail
-           link="https://fenagel.github.io/react-gifs/"
-           image={gif}
-           title="React Gif Generator"
-           category="React API calls"
-           language="React"      />
+           link="https://fenagel.github.io/nature-tours/"
+           image={nature}
+           title="Advanced CSS Concepts"
+           category="CSS"
+           language="HTML & CSS"      />
         </Col>
-        <Col xs={12} md={6} xl={4} className="mb-3">
+        <Col xs={12} md={6} xl={4} className="mb-5">
            <Thumbnail
            link="https://fenagel.github.io/react-lights-out/"
            image={lights}
@@ -57,7 +57,7 @@ function Projects(props) {
            category="React Game"
            language="React"      />
         </Col>
-        <Col xs={12} md={6} xl={4} className="mb-3">
+        <Col xs={12} md={6} xl={4} className="mb-5">
            <Thumbnail
            link="https://fenagel.github.io/react-todo-list/"
            image={todo}
