@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a7b1d7c3.chunk.css",
-    "main.js": "/portfolio/static/js/main.392fbbbc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.392fbbbc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.55973f5a.chunk.css",
+    "main.js": "/portfolio/static/js/main.ad6a5275.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ad6a5275.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
     "static/js/2.b996ef10.chunk.js": "/portfolio/static/js/2.b996ef10.chunk.js",
     "static/js/2.b996ef10.chunk.js.map": "/portfolio/static/js/2.b996ef10.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d967b6ac68215ac2975ca4548d978d9d.js": "/portfolio/precache-manifest.d967b6ac68215ac2975ca4548d978d9d.js",
+    "precache-manifest.e226dc9f85b2c75d5f9b64521da9512d.js": "/portfolio/precache-manifest.e226dc9f85b2c75d5f9b64521da9512d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.a7b1d7c3.chunk.css.map": "/portfolio/static/css/main.a7b1d7c3.chunk.css.map",
+    "static/css/main.55973f5a.chunk.css.map": "/portfolio/static/css/main.55973f5a.chunk.css.map",
     "static/js/2.b996ef10.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b996ef10.chunk.js.LICENSE.txt",
     "static/media/cocktail.png": "/portfolio/static/media/cocktail.1b4fd1a1.png",
     "static/media/hero.jpg": "/portfolio/static/media/hero.a21a871a.jpg",
     "static/media/lights.png": "/portfolio/static/media/lights.604a0688.png",
     "static/media/nature.png": "/portfolio/static/media/nature.a526533d.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.ba02bdfb.jpg",
+    "static/media/Projects.css": "/portfolio/static/media/projects.b1e60140.jpg",
     "static/media/todo.png": "/portfolio/static/media/todo.210682a6.png",
     "static/media/wyder.png": "/portfolio/static/media/wyder.a263ab17.png",
     "static/media/yahtzee.png": "/portfolio/static/media/yahtzee.98386147.png"
@@ -27,7 +28,7 @@
     "static/js/runtime-main.075c0788.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.b996ef10.chunk.js",
-    "static/css/main.a7b1d7c3.chunk.css",
-    "static/js/main.392fbbbc.chunk.js"
+    "static/css/main.55973f5a.chunk.css",
+    "static/js/main.ad6a5275.chunk.js"
   ]
 }
