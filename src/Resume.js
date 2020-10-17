@@ -15,8 +15,7 @@ function Resume(props) {
             <h2>2020</h2>
             <p>
               <strong>Le Wagon</strong> - 9 week web development course. Now
-              working as a <strong>Teaching Assistant</strong> for the next
-              batch at Le Wagon.
+              working as a <strong>Teaching Assistant</strong> at Le Wagon.
             </p>
           </div>
         </div>
@@ -36,8 +35,7 @@ function Resume(props) {
             <h2>2015-2017</h2>
             <p>
               <strong>University College Dublin</strong> -{" "}
-              <strong>MSc. in International Business</strong> - designed to
-              provide students with the skills & competencies required to
+              <strong>MSc. in International Business</strong> - providing students with the skills & competencies required to
               operate in the global market place.
             </p>
           </div>
