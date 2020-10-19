@@ -1,6 +1,5 @@
 .About {
   text-align: center;
-  margin-bottom: 9rem;
 }
 
 .Animation {
@@ -75,6 +74,22 @@
   width: 50%;
 }
 
+.About-Description-Picture {
+  margin-top: 5rem;
+}
+
+.About-Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.About-Description h4 {
+  color: #2a9d8f;
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 767.98px) {
   .About {
     text-align: center;
@@ -99,5 +114,9 @@
   }
   .Skill-Item {
     font-size: 1rem;
+  }
+
+  .About-Description {
+    margin-top: 3rem;
   }
 }

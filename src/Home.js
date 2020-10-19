@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react';
-import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import About from './About';
 import Projects from './Projects';
 import Resume from './Resume';
 import './Home.css';
-
-import hero from './images/hero.jpg';
 
 function Home(props) {
 

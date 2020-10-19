@@ -1,6 +1,8 @@
 import React from "react";
 import './About.css';
 import profile from './images/profile.jpg';
+import ideas from './images/ideas.jpg';
+import sketch from './images/sketch.jpg';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -78,6 +80,24 @@ function About(props) {
             <i className="fas fa-server"></i>
           </Row>
 
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} md={6} className="About-Description-Picture">
+          <Image src={ideas} href="" lt="ideas into reality" thumbnail className="" />
+        </Col>
+        <Col xs={12} md={6} className="About-Description">
+          <h4>Web Development</h4>
+          <p>What fascinates me about coding is that it gives you the ability to turn ideas into reality.</p>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} md={6} className="About-Description">
+          <h4>Online Marketing</h4>
+          <p>My specialty is Google Ads. I also have expertise in Conversion Rate Optimization</p>
+        </Col>
+        <Col xs={12} md={6} className="About-Description-Picture">
+          <Image src={sketch} href="" lt="sketch" thumbnail className="" />
         </Col>
       </Row>
     </Container>

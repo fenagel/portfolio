@@ -15,15 +15,7 @@ import todo from './images/todo.png';
 function Projects(props) {
   return (
     <div className="Projects">
-    <div className="Projects-Skew">
-
       <h1 className="Header Skew-Normal">Some of my Projects</h1>
-      <div class="Hero-Scroll">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
       <Row>
         <Col xs={12} md={6} xl={4} className="mb-5">
           <Thumbnail
