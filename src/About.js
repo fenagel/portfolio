@@ -92,12 +92,19 @@ function About(props) {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={6} className="About-Description">
+        <Col xs={12} md={6} className="About-Description Desktop">
           <h4>Online Marketing</h4>
           <p>My specialty is Google Ads. I also have expertise in Conversion Rate Optimization</p>
         </Col>
-        <Col xs={12} md={6} className="About-Description-Picture">
+        <Col xs={12} md={6} className="About-Description-Picture Desktop">
           <Image src={sketch} href="" lt="sketch" thumbnail className="" />
+        </Col>
+        <Col xs={12} md={6} className="About-Description-Picture Mobile">
+          <Image src={sketch} href="" lt="sketch" thumbnail className="" />
+        </Col>
+        <Col xs={12} md={6} className="About-Description Mobile">
+          <h4>Online Marketing</h4>
+          <p>My specialty is Google Ads. I also have expertise in Conversion Rate Optimization</p>
         </Col>
       </Row>
     </Container>

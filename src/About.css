@@ -90,6 +90,10 @@
   margin-bottom: 2rem;
 }
 
+.Mobile {
+  display: none;
+}
+
 @media (max-width: 767.98px) {
   .About {
     text-align: center;
@@ -118,5 +122,13 @@
 
   .About-Description {
     margin-top: 3rem;
+  }
+
+  .Mobile {
+    display: block;
+  }
+
+  .Desktop {
+    display: none;
   }
 }
