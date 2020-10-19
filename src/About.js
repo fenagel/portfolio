@@ -4,13 +4,12 @@ import profile from './images/profile.jpg';
 import ideas from './images/ideas.jpg';
 import sketch from './images/sketch.jpg';
 import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function About(props) {
   return (
-    <Container className="About">
+    <div className="About">
       <h1 className="Header mb-5">ABOUT</h1>
       <p className="Header-p mb-5">Recently, I made the transition from a previous life in <strong>online marketing</strong> to becoming a <strong>full-stack web developer</strong>.</p>
       <p className="Header-p">With my background online marketing & ecommerce <strong>I know what today's websites need</strong> to be marketable.</p>
@@ -107,7 +106,7 @@ function About(props) {
           <p>My specialty is Google Ads. I also have expertise in Conversion Rate Optimization</p>
         </Col>
       </Row>
-    </Container>
+    </div>
 
   )
 }
