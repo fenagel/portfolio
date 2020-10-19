@@ -21,7 +21,7 @@ useEffect(() => {
       <div className="Hero-P">
         <p>I'm a web developer & performance marketer</p>
       </div>
-      <div class="Hero-Scroll">
+      <div className="Hero-Scroll">
         <span></span>
         <span></span>
         <span></span>

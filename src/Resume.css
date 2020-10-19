@@ -129,7 +129,7 @@
   color: #2a9d8f;
 }
 
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .Resume {
     font-size: 10pt;
     text-align: center;
