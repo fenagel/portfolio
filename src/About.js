@@ -98,6 +98,8 @@ function About(props) {
         <Col xs={12} md={6} className="About-Description-Picture Desktop">
           <Image src={sketch} href="" lt="sketch" thumbnail className="" />
         </Col>
+      </Row>
+      <Row>
         <Col xs={12} md={6} className="About-Description-Picture Mobile">
           <Image src={sketch} href="" lt="sketch" thumbnail className="" />
         </Col>

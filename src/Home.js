@@ -27,7 +27,7 @@ useEffect(() => {
         <span></span>
       </div>
       </header>
-      <Container fixed="top" fluid="md" >
+      <Container fixed="top" fluid={false} >
       <About />
       <Projects />
       <Resume />
