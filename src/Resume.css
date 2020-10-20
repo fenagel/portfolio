@@ -1,13 +1,13 @@
 .Resume {
   text-align: center;
-  background-color: #264653;
+  background-color: #eaeaea;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
 }
-#Resume-Header {
+/* #Resume-Header {
   color: #fff;
-}
+} */
 
 .timeline {
   position: relative;

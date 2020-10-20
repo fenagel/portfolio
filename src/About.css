@@ -71,6 +71,10 @@
   font-size: 1.2rem;
 }
 
+.Who-This h4 {
+  color: #2a9d8f;
+}
+
 .Profile-Pic {
   object-fit: cover;
   width: 50%;
