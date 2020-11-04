@@ -52,7 +52,7 @@ function Resume(props) {
               </a>
               <a
                 target="blank"
-                href="https://drive.google.com/file/d/1QsyW2xrCWyyiE6BvEHqBQHQ-G2_wYLxj/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lJU868SE5rLZImZDzAGO1BB_whqAsL-E/view?usp=sharing"
               >
                 <i className="fas fa-download pr-2"></i>
               </a>
