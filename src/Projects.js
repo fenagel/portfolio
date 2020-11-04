@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Thumbnail from './Thumbnail';
 import './Projects.css';
 
+import tinyhouses from './images/tinyhouses.png';
 import wyder from './images/wyder.png';
 import cocktail from './images/cocktail.png';
 import yahtzee from './images/yahtzee.png';
@@ -17,6 +18,14 @@ function Projects(props) {
     <div className="Projects">
       <h1 className="Header Skew-Normal">Some of my Projects</h1>
       <Row>
+      <Col xs={12} md={6} xl={4} className="mb-5">
+           <Thumbnail
+           link="https://tinyhouses.herokuapp.com/"
+           image={tinyhouses}
+           title="Tinyhouses Airbnb"
+           category="Website"
+           language="Ruby on Rails"      />
+        </Col>
         <Col xs={12} md={6} xl={4} className="mb-5">
           <Thumbnail
            link="http://www.wyder.xyz/"
@@ -48,14 +57,6 @@ function Projects(props) {
            title="Advanced CSS Concepts"
            category="CSS"
            language="HTML & CSS"      />
-        </Col>
-        <Col xs={12} md={6} xl={4} className="mb-5">
-           <Thumbnail
-           link="https://fenagel.github.io/react-lights-out/"
-           image={lights}
-           title="React Lights-Out-Game"
-           category="React Game"
-           language="React"      />
         </Col>
         <Col xs={12} md={6} xl={4} className="mb-5">
            <Thumbnail
