@@ -11,6 +11,7 @@ import yahtzee from './images/yahtzee.png';
 import nature from './images/nature.png';
 import lights from './images/lights.png';
 import todo from './images/todo.png';
+import trillo from './images/trillo.png';
 
 
 function Projects(props) {
@@ -52,9 +53,9 @@ function Projects(props) {
         </Col>
         <Col xs={12} md={6} xl={4} className="mb-5">
            <Thumbnail
-           link="https://fenagel.github.io/nature-tours/"
-           image={nature}
-           title="Advanced CSS Concepts"
+           link="https://fenagel.github.io/trillo/"
+           image={trillo}
+           title="Flexbox Concepts Landing Page"
            category="CSS"
            language="HTML & CSS"      />
         </Col>
@@ -66,6 +67,23 @@ function Projects(props) {
            category="React App"
            language="React"      />
         </Col>
+        <Col xs={12} md={6} xl={4} className="mb-5">
+           <Thumbnail
+           link="https://fenagel.github.io/react-lights-out/"
+           image={lights}
+           title="React Lights-Out-Game"
+           category="React App"
+           language="React"      />
+        </Col>
+        <Col xs={12} md={6} xl={4} className="mb-5">
+           <Thumbnail
+           link="https://fenagel.github.io/nature-tours/"
+           image={nature}
+           title="Advanced CSS Concepts"
+           category="CSS"
+           language="HTML & CSS"      />
+        </Col>
+        
       </Row>
 
     </div>
