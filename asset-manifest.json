@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4a475f6d.chunk.css",
-    "main.js": "/portfolio/static/js/main.afeefbbc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.afeefbbc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9b0726ca.chunk.css",
+    "main.js": "/portfolio/static/js/main.4888506d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4888506d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
     "static/css/2.2a86faee.chunk.css": "/portfolio/static/css/2.2a86faee.chunk.css",
-    "static/js/2.b6edbc28.chunk.js": "/portfolio/static/js/2.b6edbc28.chunk.js",
-    "static/js/2.b6edbc28.chunk.js.map": "/portfolio/static/js/2.b6edbc28.chunk.js.map",
+    "static/js/2.d7652473.chunk.js": "/portfolio/static/js/2.d7652473.chunk.js",
+    "static/js/2.d7652473.chunk.js.map": "/portfolio/static/js/2.d7652473.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a3e5e11bf7506877ab96dbcdf4594735.js": "/portfolio/precache-manifest.a3e5e11bf7506877ab96dbcdf4594735.js",
+    "precache-manifest.f373662e40f75687e1ba3457b272596f.js": "/portfolio/precache-manifest.f373662e40f75687e1ba3457b272596f.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/portfolio/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.4a475f6d.chunk.css.map": "/portfolio/static/css/main.4a475f6d.chunk.css.map",
-    "static/js/2.b6edbc28.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b6edbc28.chunk.js.LICENSE.txt",
+    "static/css/main.9b0726ca.chunk.css.map": "/portfolio/static/css/main.9b0726ca.chunk.css.map",
+    "static/js/2.d7652473.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d7652473.chunk.js.LICENSE.txt",
     "static/media/cocktail.png": "/portfolio/static/media/cocktail.1b4fd1a1.png",
     "static/media/Home.css": "/portfolio/static/media/hero.a21a871a.jpg",
     "static/media/ideas.jpg": "/portfolio/static/media/ideas.6852dc11.jpg",
     "static/media/lights.png": "/portfolio/static/media/lights.604a0688.png",
     "static/media/nature.png": "/portfolio/static/media/nature.a526533d.png",
+    "static/media/nexter.png": "/portfolio/static/media/nexter.b556f562.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.ba02bdfb.jpg",
     "static/media/sketch.jpg": "/portfolio/static/media/sketch.ad568e69.jpg",
     "static/media/tinyhouses.png": "/portfolio/static/media/tinyhouses.79ff7eb1.png",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.b6edbc28.chunk.js",
-    "static/css/main.4a475f6d.chunk.css",
-    "static/js/main.afeefbbc.chunk.js"
+    "static/js/2.d7652473.chunk.js",
+    "static/css/main.9b0726ca.chunk.css",
+    "static/js/main.4888506d.chunk.js"
   ]
 }
