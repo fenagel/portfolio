@@ -12,6 +12,7 @@
   margin-bottom: 8rem;
   margin-left: 0 !important;
   margin-right: 0 !important;
+  transition: all 0.2s;
 }
 
 .About-Card {
